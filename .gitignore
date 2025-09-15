@@ -1,3 +1,51 @@
-.ipynb_checkpoints/
-data/
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+
+
+# Данные и модели
 *.csv
+*.json
+*.xlsx
+*.h5
+*.pkl
+*.pth
+*.model
+data/
+models/
+
+# CatBoost временные файлы
+catboost_info/
+
+# Логи и кэш
+*.log
+.cache/
+*.tmp
+
+# Окружение и настройки
+.env
+.venv/
+venv/
+env/
+.envrc
+
+# IDE и редакторы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Большие файлы и архивы
+*.zip
+*.tar
+*.gz
+*.jar
+*.7z
