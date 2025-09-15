@@ -50,3 +50,6 @@ Thumbs.db
 *.jar
 *.7z
 *.jar
+.ipynb_checkpoints/
+notebook/catboost_info/
+*.ipynb_checkpoints
